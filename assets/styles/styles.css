@@ -7,6 +7,11 @@
   --dark: rgb(41, 14, 34);
   --light: #ded40e;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: var(--font);
   background-color: blanchedalmond;
@@ -15,12 +20,7 @@ body {
 a {
   text-decoration: none;
 }
-.hero {
-  background-image: url(../images/backgorund_image.jpg);
-  height: 20em;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 header {
   background-color: var(--dark);
   color: var(--light);
@@ -33,6 +33,7 @@ h1 {
   color: var(--dark);
   padding: 0.3em 0.2em 0.3em 3em;
 }
+
 nav {
   padding-right: 8%;
 }
@@ -44,8 +45,15 @@ nav li {
 nav a {
   color: inherit;
 }
+.hero {
+  background-image: url(../images/backgorund_image.jpg);
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 main {
-  padding: 0.8em 1.5em 0 4em;
+  padding: 0.8em 0 0 4em;
 }
 main h2 {
   text-align: right;
@@ -60,12 +68,31 @@ section {
   display: flex;
   height: auto;
 }
+.about-me {
+  margin-bottom: 100px;
+}
 .about-me_content {
   display: flex;
   flex-direction: column;
-  padding: 0 2em;
+  /* padding: 0 2em; */
 }
-
+/* #contact-me ul {
+  display: flex;
+} */
 #contact-me li {
   list-style-type: none;
+  display: inline-block;
+}
+
+#cotact-me li a {
+  color: var(--dark);
+}
+.work-tiles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project {
+  width: 400px;
+  height: 200px;
+  border: 3px solid salmon;
 }
