@@ -87,12 +87,12 @@ nav a {
 /* Hero section with the image */
 .hero {
   background-image: url(../images/backgorund_image.jpg);
-  height: 25em;
+  height: 20em;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 3em;
   position: relative;
-  filter: blur(4px);
+  filter: blur(2px);
 }
 
 /* End of Hero section */
@@ -122,14 +122,6 @@ main p {
   display: flex;
   margin-bottom: 3em;
 }
-#profile-picture {
-  width: 250px;
-  height: 300px;
-  border-radius: 100%;
-  z-index: 10;
-  background-color: var(--light);
-  padding: 0.5em;
-}
 
 .about-me_content {
   width: 100%;
@@ -139,6 +131,24 @@ main p {
   padding: 0 1em;
   line-height: 1.8;
 }
+#first_para {
+  display: flex;
+}
+#first_para p {
+  align-self: flex-end;
+}
+/* Profile image */
+#profile-picture {
+  margin-right: 1em;
+  width: 180px;
+  height: 200px;
+  z-index: 10;
+  background-color: var(--light);
+  padding: 0.5em;
+  border: 0.5em solid var(--dark);
+  margin-bottom: 1em;
+}
+
 .about-me_content p {
   margin-bottom: 1em;
   text-align: left;
@@ -226,16 +236,20 @@ h4 {
 /* End of contact section */
 
 /* ----------- MEDIA QUERY ------------------------------- */
+
 /* Breakpoint for tablets and smaller device */
 @media screen and (max-width: 768px) {
   /* Applies to all text inside body */
   body {
     text-align: center;
   }
-  /* #profile-picture {
-    top: 55%;
-    left: 35%;
-  } */
+  #first_para {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #profile-picture {
+    align-self: center;
+  }
 
   /* Only visible in main > articles on smaller devices  */
   .line-break {
