@@ -25,6 +25,11 @@ body {
   height: auto;
 }
 
+/* Sets iamge width for all img tags  */
+img {
+  width: 100%;
+  height: 100%;
+}
 /* Text decoration for all anchor tags have been set to none */
 a {
   text-decoration: none;
@@ -79,12 +84,16 @@ main {
   /* border: 1px solid red; */
 }
 main h2 {
+  width: 200px;
+  text-align: right;
   font-size: 175%;
-  text-align: left;
   color: var(--dark);
   font-family: inherit;
-  /* border-right: 3px solid var(--dark); */
-  /* padding-right: 2em; */
+  border-right: 3px solid var(--dark);
+  padding-right: 1em;
+}
+.line-break {
+  display: none;
 }
 main p {
   font-size: 16px;
@@ -93,7 +102,6 @@ main p {
   height: auto;
   display: flex;
   margin-bottom: 3em;
-  line-height: 1.8;
 }
 
 .about-me_content {
@@ -101,6 +109,8 @@ main p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 1em;
+  line-height: 1.8;
 }
 .about-me_content p {
   margin-bottom: 1em;
@@ -119,23 +129,26 @@ main p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 2em;
+  padding: 0 5em;
   /* margin-left: 2em; */
 }
 .project {
   border: 3px solid salmon;
-  width: 46%;
-  height: 250px;
+  width: 45%;
+  height: auto;
   margin: 1em;
-  background-color: aqua;
+  position: relative;
+}
+.project-title {
+  position: absolute;
+  border: blue;
+  background-color: aliceblue;
+  right: 0;
+  z-index: 2;
 }
 /* Project tiles */
 #tic-tac-toe {
   flex: 1 1 100%;
-  height: 38em;
-  background-image: url(../images/tic-tac-toe-board-game-concept.jpg.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #new-project {
   background-image: url(../images/dave-lsoogGC_5dg-unsplash.jpg);
@@ -147,20 +160,18 @@ main p {
 /* Contact section */
 #contact-me {
   display: flex;
-  flex-wrap: wrap;
-  height: 6em;
-  align-items: center;
 }
 
 #contact-me ul {
   display: flex;
+  width: 100%;
   align-items: center;
-  width: 80%;
-  margin-left: 2.5em;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 #contact-me li {
   list-style-type: none;
+  padding: 0.8em;
 }
 
 #cotact-me li a {
@@ -173,6 +184,13 @@ main p {
   body {
     text-align: center;
   }
+  .line-break {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid var(--dark);
+    margin-bottom: 1em;
+  }
   header {
     padding: 1em 0;
   }
@@ -180,10 +198,17 @@ main p {
     flex-direction: column;
     line-height: 2;
   }
+  main h2 {
+    text-align: center;
+    border: unset;
+    align-self: center;
+  }
+
   #about-me,
   #work,
   #contact-me {
     flex-direction: column;
+    justify-content: center;
   }
   #contact-me ul {
     flex-direction: column;

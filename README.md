@@ -34,11 +34,14 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+![tictactoeboard](./assets/images/tic-tac-toe-board-game-concept.jpg.webp)
+Photo- credit: https://www.gamesver.com/wp-content/uploads/2022/02/tic-tac-toe-board-game-concept.jpg.webp
+![BookMyEvents](./assets/images/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg)
+Photo-credit: https://unsplash.com/photos/1dW1vEJLlCQ
+![BooleBots](./assets/images/alex-knight-2EJCSULRwC8-unsplash.jpg)
+Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
+![placeHolder](./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg)
+Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
 
 ## License
 
