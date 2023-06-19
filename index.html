@@ -14,10 +14,10 @@
         <nav>
           <h1>Sucheta Mukherjee</h1>
           <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="#">Resume</a></li>
+            <li class="nav-item"><a href="#about-me">About Me</a></li>
+            <li class="nav-item"><a href="#work">Work</a></li>
+            <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
+            <li class="nav-item"><a href="#">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -25,14 +25,21 @@
     <section class="hero">
       <span></span>
     </section>
+   
     <main>
       <!-- Addded class container to give this section a max-width property -->
+      <!-- About Me -->
       <section id="about-me" class="container">
         <h2>About Me</h2>
         <hr class="line-break" />
         <section class="about-me_content">
+          <img
+          src="./assets/images/IMG_20200601_150351_569.jpg"
+          alt="sucheta mukherjee"
+          id="profile-picture"
+        />
           <p>
-            I am a Frontend web developer based in Glen Allen, Virginia. My
+            I am an aspiring web developer based in Glen Allen, Virginia. My
             expertise lies in creating user-friendly web applications and
             websites, leveraging a skill set that encompasses HTML, CSS,
             JavaScript, and React. With proficiency in these languages, I strive
@@ -60,69 +67,84 @@
           </p>
         </section>
       </section>
+      <!-- Work Tiles  -->
       <section id="work" class="container">
         <h2>Work</h2>
         <hr class="line-break" />
         <section class="work-tiles">
           <article class="project" id="tic-tac-toe">
-            <img
-              src="./assets/images/tic-tac-toe-board-game-concept.jpg.webp"
-              alt="tic tac toe board"
-            />
+            <a href="https://tictactoebysucheta.netlify.app/" target="_blank"
+              ><img
+                src="./assets/images/tic-tac-toe-board-game-concept.jpg.webp"
+                alt="tic tac toe board"
+            /></a>
             <span class="project-title"
-              ><a href="https://tictactoebysucheta.netlify.app/" target="_blank"
-                >Tic Tac Toe</a
-              ></span
+              ><h4>Tic Tac Toe</h4>
+              <h5>Vanilla JavaScript</h5></span
             >
           </article>
+
           <article class="project" id="business-card">
-            <img src="./assets/images/van-tay-media-chyT9XPAdcg-unsplash.jpg" />
-            <span class="project-title"
-              ><a
-                href="https://digital-bz-card-sucheta.netlify.app/"
-                target="_blank"
-                >E- Business-card</a
-              ></span
-            >
+            <a
+              href="https://digital-bz-card-sucheta.netlify.app/"
+              target="_blank"
+              ><img
+                src="./assets/images/van-tay-media-chyT9XPAdcg-unsplash.jpg"
+                alt="business card"
+            /></a>
+            <span class="project-title">
+              <h4>E - Business-card</h4>
+              <h5>React</h5>
+            </span>
           </article>
           <article class="project" id="event-booking">
-            <img
-              src="./assets/images/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg"
-            />
+            <a href="https://bookmyeventssm.netlify.app/" target="_blank"
+              ><img
+                src="./assets/images/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg"
+            /></a>
+            <span class="project-title">
+              <h4>Book My Events</h4>
+              <h5>React</h5>
+            </span>
+          </article>
+          <article class="project" id="boolebots">
+            <a href="https://boolebots.netlify.app/" target="_blank"
+              ><img src="./assets/images/alex-knight-2EJCSULRwC8-unsplash.jpg"
+            /></a>
             <span class="project-title"
-              ><a href="https://bookmyeventssm.netlify.app/" target="_blank"
-                >Book My Events</a
-              ></span
-            >
+              ><h4>BooleBots</h4>
+              <h5>React</h5>
+            </span>
           </article>
           <article class="project new-project">
-            <img src="./assets/images/alex-knight-2EJCSULRwC8-unsplash.jpg" />
-            <span class="project-title"
-              ><a href="https://boolebots.netlify.app/" target="_blank"
-                >BooleBots</a
-              ></span
-            >
-          </article>
-          <article class="project new-project">
-            <img src="./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg" />
-            <span class="project-title"></span>
+            <a href="/"
+              ><img src="./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg"
+            /></a>
+            <span class="project-title"><h4>Coming soon...</h4></span>
           </article>
         </section>
       </section>
+      <!-- Contact me -->
       <section id="contact-me" class="container">
         <h2>Contact Me</h2>
         <hr class="line-break" />
         <ul>
-          <li><a href="#">555.555.5555</a></li>
-          <li>
-            <a href="mailto:sucheta.mukherjee.dev23@gmail.com"
-              >sucheta.mukherjee.dev23@gmail.com</a
-            >
+          <li class="contact-item">
+            <a href="tel:(804) 404-5316">‪(804) 404-5316‬</a>
           </li>
-          <li>
+          <li class="contact-item">
+            <a href="mailto:sucheta.mukherjee.dev23@gmail.com">Email</a>
+          </li>
+          <li class="contact-item">
             <a href="https://github.com/sucheta90" target="_blank">Github</a>
           </li>
-          <li><a href="" target="_blank">LinkedIn</a></li>
+          <li class="contact-item">
+            <a
+              href="https://www.linkedin.com/in/sucheta-mukherjee-07347b88/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
         </ul>
       </section>
     </main>
