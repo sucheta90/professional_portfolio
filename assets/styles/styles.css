@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 
+/* Defined css variables */
 :root {
   --font: "Libre Baskerville", serif;
   --font-normal: 400;
@@ -7,35 +8,49 @@
   --dark: rgb(41, 14, 34);
   --light: #ded40e;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
+/* Addded div of class container to give the document a max-width property */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
 }
+/* end of class= container */
 body {
   font-family: var(--font);
   background-color: blanchedalmond;
   color: var(--dark);
+  width: 100%;
+  height: auto;
 }
+
+/* Text decoration for all anchor tags have been set to none */
 a {
   text-decoration: none;
 }
-
+/* Header element starts here */
 header {
   background-color: var(--dark);
   color: var(--light);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 5em;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1em;
 }
 h1 {
   background-color: var(--light);
   color: var(--dark);
-  padding: 0.3em 0.2em 0.3em 3em;
-}
-
-nav {
-  padding-right: 8%;
+  font-size: 200%;
+  padding: 0.3em 0.2em 0.3em 2em;
 }
 nav li {
   list-style-type: none;
@@ -45,54 +60,136 @@ nav li {
 nav a {
   color: inherit;
 }
+/* End of Header */
+
+/* Hero section with the image */
 .hero {
   background-image: url(../images/backgorund_image.jpg);
-  height: 20em;
+  height: 15em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em;
+}
+
+/* End of Hero section */
+
+/* Main starts here */
+main {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+main h2 {
+  font-size: 175%;
+  text-align: left;
+  color: var(--dark);
+  font-family: inherit;
+  /* border-right: 3px solid var(--dark); */
+  /* padding-right: 2em; */
+}
+main p {
+  font-size: 16px;
+}
+#about-me {
+  height: auto;
+  display: flex;
+  margin-bottom: 3em;
+  line-height: 1.8;
+}
+
+.about-me_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me_content p {
+  margin-bottom: 1em;
+  text-align: left;
+  padding: 0 2em;
+}
+
+/* Work section starts here */
+#work {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.work-tiles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2em;
+  /* margin-left: 2em; */
+}
+.project {
+  border: 3px solid salmon;
+  width: 46%;
+  height: 250px;
+  margin: 1em;
+  background-color: aqua;
+}
+/* Project tiles */
+#tic-tac-toe {
+  flex: 1 1 100%;
+  height: 38em;
+  background-image: url(../images/tic-tac-toe-board-game-concept.jpg.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
+#new-project {
+  background-image: url(../images/dave-lsoogGC_5dg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Work section ends here */
 
-main {
-  padding: 0.8em 0 0 4em;
-}
-main h2 {
-  text-align: right;
-  color: inherit;
-  font-family: inherit;
-  border-right: 3px solid var(--dark);
-  width: 100px;
-  padding-right: 2em;
+/* Contact section */
+#contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6em;
+  align-items: center;
 }
 
-section {
+#contact-me ul {
   display: flex;
-  height: auto;
+  align-items: center;
+  width: 80%;
+  margin-left: 2.5em;
+  justify-content: space-between;
 }
-.about-me {
-  margin-bottom: 100px;
-}
-.about-me_content {
-  display: flex;
-  flex-direction: column;
-  /* padding: 0 2em; */
-}
-/* #contact-me ul {
-  display: flex;
-} */
 #contact-me li {
   list-style-type: none;
-  display: inline-block;
 }
 
 #cotact-me li a {
   color: var(--dark);
 }
-.work-tiles {
-  display: flex;
-  flex-wrap: wrap;
+/* End of contact section */
+
+/* Breakpoint for tablets */
+@media screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  header {
+    padding: 1em 0;
+  }
+  nav {
+    flex-direction: column;
+    line-height: 2;
+  }
+  #about-me,
+  #work,
+  #contact-me {
+    flex-direction: column;
+  }
+  #contact-me ul {
+    flex-direction: column;
+  }
 }
-.project {
-  width: 400px;
-  height: 200px;
-  border: 3px solid salmon;
+
+/* Breakpount for mobile */
+@media screen and (max-width: 768px) {
 }

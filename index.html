@@ -9,48 +9,68 @@
   </head>
   <body>
     <header>
-      <h1>Sucheta Mukherjee</h1>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact-me">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </nav>
+      <!-- Addded div of class container to give the document a max-width property -->
+      <div class="container">
+        <nav>
+          <h1>Sucheta Mukherjee</h1>
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section class="hero">
       <span></span>
     </section>
     <main>
-      <section id="about-me">
+      <!-- Addded class container to give this section a max-width property -->
+      <section id="about-me" class="container">
         <h2>About Me</h2>
         <section class="about-me_content">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            dolorum distinctio nisi voluptas! Possimus sequi reiciendis
-            voluptatum obcaecati id cum, sint eius, asperiores minus distinctio
-            in illum amet unde quaerat!
+            I am a Frontend web developer based in Glen Allen, Virginia. My
+            expertise lies in creating user-friendly web applications and
+            websites, leveraging a skill set that encompasses HTML, CSS,
+            JavaScript, and React. With proficiency in these languages, I strive
+            to build exceptional online experiences.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-            dolorum distinctio nisi voluptas! Possimus sequi reiciendis
-            voluptatum obcaecati id cum, sint eius, asperiores minus distinctio
-            in illum amet unde quaerat!
+            During my prior employment in the Customer Service industry, I
+            gained valuable experience in problem-solving. Upon relocating to
+            the USA, I transitioned into the role of an office administrative
+            assistant. This position provided me with a comprehensive
+            understanding of crucial aspects such as organizational skills, time
+            management, effective communication, rapid learning, critical
+            thinking, and meticulous attention to detail. These experiences have
+            shaped me into a well-rounded professional with a strong foundation
+            in various essential skills.
+          </p>
+          <p>
+            I have a strong passion for continuous learning and skill growth, as
+            I find great satisfaction in swiftly acquiring new knowledge. Given
+            the ever-evolving nature of the technologies I work with, I am
+            dedicated to honing my skills and staying up-to-date. My objective
+            is to demonstrate my expertise, foster collaboration, and contribute
+            to a stimulating and fulfilling work environment as part of a team.
+            If you wish to connect with me, please don't hesitate to reach out.
           </p>
         </section>
       </section>
-      <section id="work">
+      <section id="work" class="container">
         <h2>Work</h2>
         <section class="work-tiles">
-          <article class="project"></article>
-          <article class="project"></article>
-          <article class="project"></article>
-          <article class="project"></article>
+          <article class="project" id="tic-tac-toe"></article>
+          <article class="project" id="business-card"></article>
+          <article class="project" id="event-booking"></article>
+          <article class="project" id="new-project"></article>
           <article class="project"></article>
         </section>
       </section>
-      <section id="contact-me">
+      <section id="contact-me" class="container">
+        <!-- <div class="container"> -->
         <h2>Contact Me</h2>
         <ul>
           <li><a href="#">555.555.5555</a></li>
@@ -64,6 +84,7 @@
           </li>
           <li><a href="" target="_blank">LinkedIn</a></li>
         </ul>
+        <!-- </div> -->
       </section>
     </main>
   </body>
