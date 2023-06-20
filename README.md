@@ -2,23 +2,36 @@
 
 ## Description
 
-This project showcases previous work for potential employers to assess the capability of the candidate, who is looking to apply for an open position at their company. It is through this project, the candidate gets an opportunity to introduce themselves virtually to a potential employer or hiring team or recruiter. The `nav` links help user navigate to different sections on the page.
+This project serves as a portfolio to showcase previous work, allowing potential employers to evaluate the candidate's capabilities when applying for an open position within their company. Through this project, the candidate can virtually introduce themselves to potential employers, hiring teams, or recruiters. The navigation links (`nav`) enable users to easily navigate to different sections on the page.
+
+## Work
+
+This section shows some of my previous solo and group projects.
+
+1. [TicTacToe](https://tictactoebysucheta.netlify.app/)
+2. [Digital-BusinessCard](https://digital-bz-card-sucheta.netlify.app/)
+3. [BookMyEvents](https://bookmyeventssm.netlify.app/)
+4. [Boolebots](https://boolebots.netlify.app/)
 
 ## Credits
 
-![tictactoeboard](./assets/images/tic-tac-toe-board-game-concept.jpg.webp)
-Photo- credit: https://www.gamesver.com/wp-content/uploads/2022/02/tic-tac-toe-board-game-concept.jpg.webp
-![BookMyEvents](./assets/images/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg)
-Photo-credit: https://unsplash.com/photos/1dW1vEJLlCQ
-![BooleBots](./assets/images/alex-knight-2EJCSULRwC8-unsplash.jpg)
-Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
-![placeHolder](./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg)
-Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
-![businessCard](./assets/images/van-tay-media-chyT9XPAdcg-unsplash.jpg)
-Photo-credir: https://unsplash.com/photos/chyT9XPAdcg
+- Photo- credit: https://www.gamesver.com/wp-content/uploads/2022/02/tic-tac-toe-board-game-concept.jpg.webp
+  ![tictactoeboard](./assets/images/tic-tac-toe-board-game-concept.jpg.webp)
 
-Quote credit:
-["If, at first, you do not succeed, call it version 1.0." ― Khayri R.R. Woulfe](https://techvify-software.com/35-best-coding-programming-quotes/)
+- Photo-credit: https://unsplash.com/photos/1dW1vEJLlCQ
+  ![BookMyEvents](./assets/images/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg)
+
+- Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
+  ![BooleBots](./assets/images/alex-knight-2EJCSULRwC8-unsplash.jpg)
+
+- Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
+  ![placeHolder](./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg)
+
+- Photo-credir: https://unsplash.com/photos/chyT9XPAdcg
+  ![businessCard](./assets/images/van-tay-media-chyT9XPAdcg-unsplash.jpg)
+
+- Quote credit:
+  ["If, at first, you do not succeed, call it version 1.0." ― Khayri R.R. Woulfe](https://techvify-software.com/35-best-coding-programming-quotes/)
 
 ## Resouces Used
 
