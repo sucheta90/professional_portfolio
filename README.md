@@ -37,4 +37,4 @@ Quote credit:
 ## Important Links
 
 - [Github Repo](https://github.com/sucheta90/professional_portfolio)
-- [Live Demo]()
+- [Live Demo](https://sucheta90.github.io/professional_portfolio/)
