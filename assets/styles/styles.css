@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* Defined css variables */
+:root {
+  --font: "Libre Baskerville", serif;
+  --font-normal: 400;
+  --font-heavy: 700;
+  --dark: #290e22;
+  --light: #ded40e;
+}
+
+/* Addded class to container to give the document a max-width property on largre screen size */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+/* end of class= container */
+body {
+  font-family: var(--font);
+  background-color: blanchedalmond;
+  color: var(--dark);
+  width: 100%;
+  height: auto;
+}
+
+/* Sets iamge width for all img tags  */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Text decoration for all anchor tags have been set to none */
+a {
+  text-decoration: none;
+}
+/* Header element starts here */
+header {
+  font-family: inherit;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 0.8em 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1em;
+}
+h1 {
+  width: 50%;
+  text-align: center;
+  background-color: var(--light);
+  color: var(--dark);
+  font-size: 180%;
+  padding: 0.3em 1em;
+}
+nav ul {
+  align-self: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-item {
+  list-style-type: none;
+  padding: 0.5em 1em;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  background-color: var(--light);
+  color: var(--dark);
+  box-shadow: 0 2px 2px white;
+}
+
+nav a {
+  color: inherit;
+}
+
+/* End of Header */
+
+/* Hero section with the image */
+.hero {
+  background-image: url(../images/backgorund_image.jpg);
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em;
+  position: relative;
+}
+.hero span {
+  font-style: italic;
+  position: absolute;
+  bottom: 2em;
+  right: 0;
+  padding: 0.3em 0.8em;
+  background-color: #ded40e;
+  box-shadow: 0 3px 8px white;
+}
+/* End of Hero section */
+
+/* Main starts here */
+main {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+main h2 {
+  width: 200px;
+  text-align: right;
+  font-size: 175%;
+  color: var(--dark);
+  font-family: inherit;
+  border-right: 3px solid var(--dark);
+  padding-right: 1em;
+}
+.line-break {
+  display: none;
+}
+main p {
+  font-size: 16px;
+}
+#about-me {
+  height: auto;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.about-me_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+  line-height: 1.8;
+}
+#first_para {
+  display: flex;
+}
+#first_para p {
+  align-self: flex-end;
+}
+/* Profile image */
+#profile-picture {
+  margin-right: 1em;
+  width: 180px;
+  height: 200px;
+  z-index: 10;
+  background-color: var(--light);
+  padding: 0.5em;
+  border: 0.5em solid var(--dark);
+  margin-bottom: 1em;
+}
+
+.about-me_content p {
+  margin-bottom: 1em;
+  text-align: left;
+  padding: 0 2em;
+}
+
+/* Work section starts here */
+#work {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.work-tiles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project {
+  width: 45%;
+  height: auto;
+  margin: 1em;
+  position: relative;
+}
+.project:hover {
+  box-shadow: 0 3px 8px blue;
+}
+.project:hover .project-title {
+  color: white;
+}
+.project-title {
+  position: absolute;
+  background-color: rgb(157, 195, 228);
+  left: 0;
+  bottom: 2em;
+  padding: 0.8em 1em;
+  line-height: 1.2;
+  z-index: 2;
+}
+h4 {
+  font-size: 120%;
+}
+/* Project tiles */
+#tic-tac-toe {
+  flex: 1 1 100%;
+}
+#new-project {
+  background-image: url(../images/dave-lsoogGC_5dg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Work section ends here */
+
+/* Contact section */
+#contact-me {
+  display: flex;
+  margin-bottom: 2em;
+  padding-bottom: 3em;
+}
+
+#contact-me ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-item {
+  list-style-type: none;
+  font-weight: 600;
+  padding: 0.5em 1em;
+}
+
+.contact-item a {
+  color: var(--dark);
+  padding: inherit;
+}
+.contact-item:hover a {
+  background-color: var(--dark);
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  color: white;
+  /* box-shadow: 0 2px 2px white; */
+  box-shadow: 0 2px 3px blue;
+}
+
+/* End of contact section */
+
+/* ----------- MEDIA QUERY ------------------------------- */
+
+/* Breakpoint for tablets and smaller device */
+@media screen and (max-width: 768px) {
+  /* Applies to all text inside body */
+  body {
+    text-align: center;
+  }
+  h1 {
+    width: 90%;
+    padding: 0 1em;
+  }
+  #first_para {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #profile-picture {
+    align-self: center;
+  }
+
+  /* Only visible in main > articles on smaller devices  */
+  .line-break {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid var(--dark);
+    margin-bottom: 1em;
+  }
+
+  /* Nav element */
+  nav,
+  nav ul {
+    flex-direction: column;
+    line-height: 2;
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  /* Main section */
+  main h2 {
+    text-align: center;
+    border: unset;
+    align-self: center;
+  }
+
+  /* All articles inside main */
+  #about-me,
+  #work,
+  #contact-me {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1em;
+  }
+
+  /* Tiles inside #work - all articles get full width to fit screen size*/
+  .project {
+    flex: 1 1 100%;
+  }
+  .project-title {
+    bottom: 0;
+    left: 0;
+    padding: 0.5em 0.8em;
+  }
+  /* Contact ul style change */
+  #contact-me ul {
+    flex-direction: column;
+  }
+}
