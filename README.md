@@ -27,13 +27,13 @@ This section shows some of my previous solo and group projects.
 - Photo-credit: https://unsplash.com/photos/2EJCSULRwC8
   ![placeHolder](./assets/images/octavian-dan-b21Ty33CqVs-unsplash.jpg)
 
-- Photo-credir: https://unsplash.com/photos/chyT9XPAdcg
+- Photo-credit: https://unsplash.com/photos/chyT9XPAdcg
   ![businessCard](./assets/images/van-tay-media-chyT9XPAdcg-unsplash.jpg)
 
 - Quote credit:
   ["If, at first, you do not succeed, call it version 1.0." ― Khayri R.R. Woulfe](https://techvify-software.com/35-best-coding-programming-quotes/)
 
-## Resouces Used
+## Resources Used
 
 - [GithubBadge](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 
@@ -45,7 +45,13 @@ This section shows some of my previous solo and group projects.
 
 ## Feature
 
-- This page is made responsive to fit differnt screen sizes.
+- This page is made responsive to fit different screen sizes.
+  <p align="center">
+    <img src="./assets/images/Screenshot%202023-06-24%20at%206.24.19%20PM.png" width="50%">
+    <img src="./assets/images/Screenshot%202023-06-24%20at%206.24.34%20PM.png" width="50%" >
+    <img src='./assets/images/Screenshot%202023-06-24%20at%206.24.49%20PM.png'width="50%" >
+    <img src="./assets/images/Screenshot%202023-06-24%20at%206.25.13%20PM.png" width="50%">
+  </p>
 
 ## Important Links
 
